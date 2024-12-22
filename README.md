@@ -30,6 +30,14 @@ This class ensures that only validated and sanitized data is processed, providin
 
 Each rule checks a specific condition on the field and returns an error message if the condition is not met. Rules may also accept parameters (e.g., 'min', 'max', 'in', 'not_in') which provide additional validation criteria.
 
+## Installation
+
+You can install this package via [Composer](https://getcomposer.org/). Run the following command:
+
+```bash
+composer require ideaglory/validation
+```
+
 ## Example Code:
 
 ```php
